@@ -1,0 +1,22 @@
+"""
+Data Loading Utilities
+"""
+
+import pandas as pd
+import os
+
+
+def load_csv(filepath):
+    """
+    Load data from CSV file.
+    
+    Args:
+        filepath: path to CSV file
+        
+    Returns:
+        pandas DataFrame
+    """
+    if not os.path.exists(filepath):
+        raise FileNotFoundError(f"File not found: {filepath}")
+    return pd.read_csv(filepath)
+
