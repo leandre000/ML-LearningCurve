@@ -8,9 +8,13 @@ This repository contains implementations of various machine learning concepts, f
 
 ## Features
 
+### Encoding Techniques
 - Frequency Encoding
 - Label Encoding
 - One-Hot Encoding
+- Binary Encoding
+- Target Encoding
+- Hash Encoding
 
 ## Installation
 
