@@ -19,6 +19,8 @@ This repository contains implementations of various machine learning concepts, f
 - Mean Encoding
 - Weight of Evidence (WoE) Encoding
 - Leave-One-Out Encoding
+- Backward Difference Encoding
+- Helmert Encoding
 
 ### Utilities
 - Data loading (CSV, Excel)
