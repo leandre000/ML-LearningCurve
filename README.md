@@ -17,6 +17,8 @@ This repository contains implementations of various machine learning concepts, f
 - Hash Encoding
 - Ordinal Encoding
 - Mean Encoding
+- Weight of Evidence (WoE) Encoding
+- Leave-One-Out Encoding
 
 ### Utilities
 - Data loading (CSV, Excel)
