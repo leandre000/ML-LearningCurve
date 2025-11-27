@@ -18,3 +18,16 @@ def check_missing_values(df):
     """
     return df.isnull().sum()
 
+
+def check_duplicates(df):
+    """
+    Check for duplicate rows in DataFrame.
+    
+    Args:
+        df: pandas DataFrame
+        
+    Returns:
+        int: number of duplicate rows
+    """
+    return df.duplicated().sum()
+
