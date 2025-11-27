@@ -13,14 +13,26 @@ All notable changes to this project will be documented in this file.
 - Hash encoding for high cardinality features
 - Ordinal encoding
 - Mean encoding
+- Weight of Evidence (WoE) encoding
+- Leave-One-Out encoding
 - Data loading utilities (CSV, Excel)
 - Data validation utilities
 - Missing value handling
 - Feature scaling utilities
+- Statistical utilities (cardinality, entropy)
+- Visualization utilities
 - Comprehensive test suite
 - Example scripts for all encoding techniques
+- Complete pipeline example
+- Benchmark scripts
 - Jupyter notebook for comparisons
-- Project documentation (README, CONTRIBUTING, LICENSE)
+- GitHub Actions CI/CD workflows
+- Project documentation (README, CONTRIBUTING, LICENSE, CHANGELOG)
+- API reference documentation
+- Encoding decision guide
+- Performance guide
+- Troubleshooting guide
+- FAQ
 
 ### Changed
 - Improved code structure with packages
